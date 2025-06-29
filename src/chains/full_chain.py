@@ -1,0 +1,96 @@
+from loguru import logger
+from IPython.display import display, Markdown
+
+from src.chains.query_cleaning import QueryCleaner
+from src.chains.rag_chain import Rag
+
+
+class HomeMatch():
+    
+    """
+    This is a class is responsible of builing and running the full home match chain
+    """
+    
+    def __init__(self):
+        
+        self.query_cleaner = QueryCleaner()
+        self.rag = Rag()
+    
+    def get_full_chain(self):
+        """
+        This method will build the full chain
+        """
+        query_cleaning_chain = self.query_cleaner.query_cleaning_chain()
+        rag_chain = self.rag.get_rag_chain()
+
+        #defining the full chain
+        full_chain = query_cleaning_chain | rag_chain
+        
+        return full_chain
+
+    def invoke_full_chain(
+        self,
+        raw_query : str
+    ):
+        """
+        This method will run the full chain
+        """
+        
+        try:
+            logger.info(f" cleaning user raw query, retrieving similar listings and generating suggestions : {raw_query}")
+            home_match = self.get_full_chain().invoke({"raw_query":raw_query})
+            logger.info(f"✅ listing documents sucessfully retrieved and an answer has been generated: {home_match}")
+        
+        except Exception as e:
+            # Check if it's a 403 access denied error
+            if "403" in str(e) and "Access denied" in str(e):
+                logger.error("🚫 API Access Denied - Please check your API key and network settings")
+                logger.error("This might be due to:")
+                logger.error("  - Invalid or expired API key")
+                logger.error("  - Network/firewall restrictions")
+                logger.error("  - API quota exceeded")
+                logger.error("  - VPN/proxy blocking the connection")
+            else:
+                logger.error(f"❌ Unexpected error: {str(e)}")
+                    
+                # Exit gracefully or return empty data
+                exit(1)  
+            
+        return home_match
+    
+   
+    def render_results(
+        self,
+        results
+        ):
+        """
+        This function will format the home suggestions send by the llm
+        """
+        display(Markdown("### 🏡 Top Matching Listings"))
+        
+        for i, doc in enumerate(results["context"], start=1):
+            meta = doc.metadata
+            card = f"""
+        **Listing {i}**
+        - 📍 Neighborhood: `{meta.get('neighborhood', 'N/A')}`
+        - 🛏 Bedrooms: `{meta.get('bedrooms', 'N/A')}`
+        - 🛁 Bathrooms: `{meta.get('bathrooms', 'N/A')}`
+        - 📐 Size: `{meta.get('house_size', 'N/A')}`
+        - ☀️ Price: `${meta.get('price', 'N/A'):,}`
+
+        ---
+        """
+            display(Markdown(card))
+
+        display(Markdown("### 🤖 AI Summary"))
+        display(Markdown(f"> {results['answer']}"))
+        
+if __name__=="__main__":
+    
+    #instantiate a HomeMatch object
+    home_match = HomeMatch()
+    
+    #get the home suggestions
+    home_match.render_results(home_match.invoke_full_chain(raw_query = "I'd like a modern 3-bedroom around 2000 sqft, solar panels, "
+                  "backyard, quiet neighborhood, near public transit. Budget about $600k."))
+    

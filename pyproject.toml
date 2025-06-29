@@ -11,19 +11,18 @@ dependencies = [
     "langchain>=0.3.26",
     "langchain-community>=0.3.26",
     "langchain-groq>=0.3.4",
+    "langchain-huggingface>=0.3.0",
+    "loguru>=0.7.3",
     "pydantic>=2.11.7",
     "rich>=14.0.0",
     "sentence-transformers>=4.1.0",
+    "streamlit>=1.46.1",
     "taipy>=4.1.0",
 ]
+
 
 [tool.uv.workspace]
 members = [
     "src",
-    "listings",
-    "scripts",
-    "tests",
-    "docs",
-    "notebooks",
-    "frontend",
+    
 ]

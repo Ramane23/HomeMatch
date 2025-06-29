@@ -1,0 +1,442 @@
+[
+  {
+    "page_content": "This charming 4-bedroom, 3-bathroom home rests in a quiet cul-de-sac, boasting hardwood floors throughout and a spacious backyard perfect for entertaining. The updated kitchen features granite countertops and stainless steel appliances, while the master suite offers a relaxing retreat with a walk-in closet and ensuite bathroom. Situated in the heart of a vibrant community, this home offers easy access to top-rated schools, parks, and dining.\n\nOakwood is a highly sought-after neighborhood known for its tree-lined streets, excellent schools, and friendly atmosphere. Residents enjoy access to a variety of parks, walking trails, and a thriving downtown area with unique shops and restaurants.",
+    "metadata": {
+      "neighborhood": "Oakwood",
+      "price": 480000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "house_size": "2500 sqft"
+    }
+  },
+  {
+    "page_content": "This charming 3-bedroom, 2-bathroom home is nestled in the heart of Sunnyvale, a vibrant neighborhood with a welcoming community. Enjoy a spacious living area perfect for entertaining, a fenced-in backyard ideal for family gatherings, and easy access to local parks and schools.\n\nSunnyvale is a desirable community known for its excellent schools, family-friendly atmosphere, and convenient location. Residents enjoy access to a variety of parks, shops, restaurants, and entertainment venues.",
+    "metadata": {
+      "neighborhood": "Sunnyvale",
+      "price": 750000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "house_size": "1800 sqft"
+    }
+  },
+  {
+    "page_content": "This charming 4-bedroom, 3-bathroom home offers a spacious oasis in a vibrant, up-and-coming neighborhood.  Featuring a modern kitchen with stainless steel appliances, a cozy fireplace in the living room, and a private backyard perfect for entertaining, this property is sure to delight.  The master suite boasts a spa-like bathroom, and the additional bedrooms provide ample space for family or guests. Enjoy the convenience of being close to shops, restaurants, and parks, while still enjoying the tranquility of a peaceful neighborhood.\n\nParkview is a desirable neighborhood known for its tree-lined streets, charming architecture, and family-friendly atmosphere. The community boasts several parks, playgrounds, and walking trails, making it perfect for outdoor enthusiasts.  With its convenient location close to shopping, dining, and entertainment options, Parkview offers the ideal blend of urban amenities and suburban tranquility.",
+    "metadata": {
+      "neighborhood": "Parkview",
+      "price": 650000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "house_size": "2,500 sqft"
+    }
+  },
+  {
+    "page_content": "This charming 4-bedroom, 3-bathroom home boasts a spacious open floor plan, perfect for entertaining. The gourmet kitchen features stainless steel appliances and granite countertops. Relax in the luxurious master suite complete with a walk-in closet and ensuite bathroom. Enjoy evenings on the covered patio overlooking the private backyard oasis.\n\nOakwood is a desirable neighborhood known for its mature trees, friendly atmosphere, and excellent schools. The neighborhood offers a variety of parks and playgrounds, as well as easy access to downtown.",
+    "metadata": {
+      "neighborhood": "Oakwood",
+      "price": 450000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "house_size": "2500 sqft"
+    }
+  },
+  {
+    "page_content": "This charming 4-bedroom, 3-bathroom home boasts an open floor plan, perfect for entertaining. The updated kitchen features stainless steel appliances and granite countertops. Enjoy the spacious backyard with a patio area ideal for relaxing evenings. Located in a quiet, family-friendly neighborhood with top-rated schools.\n\nOak Creek is a serene suburban community known for its excellent schools, parks, and community events. Residents enjoy a peaceful lifestyle with easy access to shopping, dining, and entertainment.",
+    "metadata": {
+      "neighborhood": "Oak Creek",
+      "price": 525000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "house_size": "2500 sqft"
+    }
+  },
+  {
+    "page_content": "This stunning 4-bedroom, 3-bathroom home boasts a spacious and open floor plan, perfect for entertaining. The gourmet kitchen features top-of-the-line appliances, while the master suite offers a private oasis with a luxurious bathroom. Situated in a highly desirable neighborhood, this property is close to excellent schools, shopping, and dining.\n\nOakwood is a charming, family-friendly neighborhood known for its tree-lined streets, peaceful atmosphere, and excellent schools. Residents enjoy easy access to parks, trails, and a variety of shopping and dining options.",
+    "metadata": {
+      "neighborhood": "Oakwood",
+      "price": 550000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "house_size": "2500 sqft"
+    }
+  },
+  {
+    "page_content": "This inviting 4 bedroom, 3 bathroom home offers a perfect blend of modern comfort and classic charm.  The spacious kitchen boasts stainless steel appliances and opens to a bright and airy living area.  Enjoy relaxing evenings in the cozy family room or unwind in the private backyard oasis.  Located in a quiet, family-friendly neighborhood, this home is perfect for those seeking both space and tranquility.\n\nNestled along the banks of the shimmering River Heights, this community offers a serene escape from the hustle and bustle. Parks, walking trails, and cafes line the picturesque streets, creating a vibrant and welcoming atmosphere.  The convenient location provides easy access to downtown amenities while preserving a peaceful suburban charm.",
+    "metadata": {
+      "neighborhood": "River Heights",
+      "price": 585000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "house_size": "2500 sqft"
+    }
+  },
+  {
+    "page_content": "This stunning 4-bedroom, 3-bathroom home boasts a spacious open-plan living area, perfect for entertaining. The gourmet kitchen features modern appliances and ample counter space. Enjoy relaxing evenings in the cozy family room with a fireplace. The master suite is a true retreat, complete with a spa-like bathroom and walk-in closet. Situated in a quiet cul-de-sac, this home offers a peaceful retreat from the hustle and bustle.\n\nNestled between rolling hills, Pleasant Ridge offers a serene escape from the city while still providing easy access to urban amenities. With tree-lined streets, charming parks, and a strong sense of community, this neighborhood is ideal for families and outdoor enthusiasts.",
+    "metadata": {
+      "neighborhood": "Pleasant Ridge",
+      "price": 650000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "house_size": "2500 sqft"
+    }
+  },
+  {
+    "page_content": "This stunning 4-bedroom, 3-bathroom home boasts a spacious open floor plan, perfect for entertaining. The gourmet kitchen features stainless steel appliances and granite countertops, while the master suite offers a luxurious retreat. Enjoy relaxing evenings in the fenced backyard oasis complete with a patio and lush landscaping.\n\nParkview Estates is a tranquil neighborhood known for its mature trees, winding streets, and family-friendly atmosphere. Residents enjoy access to numerous parks, walking trails, and a community center with swimming pool and fitness facilities.",
+    "metadata": {
+      "neighborhood": "Parkview Estates",
+      "price": 550000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "house_size": "2500 sqft"
+    }
+  },
+  {
+    "page_content": "This charming 4-bedroom, 3-bathroom home offers a comfortable and stylish living experience. The spacious living area is perfect for entertaining, while the well-appointed kitchen boasts modern appliances and ample counter space. Enjoy relaxing evenings in the private backyard oasis. This home is ideally located in a quiet and desirable neighborhood, close to parks, schools, and shopping.\n\nNestled amidst mature trees and winding streets, Willow Creek offers a peaceful retreat from the hustle and bustle of city life. Residents enjoy access to a picturesque park, community center, and excellent schools. The neighborhood is known for its friendly atmosphere and charming architecture, making it an ideal place to call home.",
+    "metadata": {
+      "neighborhood": "Willow Creek",
+      "price": 580000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "house_size": "2500 sqft"
+    }
+  },
+  {
+    "page_content": "Charming 4-bedroom, 3-bathroom home nestled in the heart of the vibrant and historic district of Oakhaven.  This beautifully maintained property boasts hardwood floors throughout, a spacious living room with a cozy fireplace, and a gourmet kitchen perfect for entertaining. Enjoy your morning coffee on the sunny patio overlooking the lush backyard. Oakhaven offers a unique blend of small-town charm and big-city amenities, with easy access to parks, restaurants, and boutiques.\n\nOakhaven is a thriving community known for its tree-lined streets, friendly residents, and historic architecture.  This charming neighborhood offers a unique blend of small-town charm and big-city amenities, with easy access to parks, restaurants, and boutique shops.  The vibrant downtown area boasts a variety of local businesses, art galleries, and entertainment options.",
+    "metadata": {
+      "neighborhood": "Oakhaven",
+      "price": 580000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "house_size": "2500 sqft"
+    }
+  },
+  {
+    "page_content": "This stunning 4-bedroom, 3-bathroom home boasts a modern open-concept layout with hardwood floors throughout. The gourmet kitchen features stainless steel appliances, granite countertops, and an oversized island perfect for entertaining.  Relax in the spacious master suite complete with a walk-in closet and spa-like bathroom. Enjoy your morning coffee on the private deck overlooking the lush backyard.  Located in the desirable community of Willow Creek with top-rated schools and convenient access to parks and shopping.\n\nWillow Creek is a highly sought-after neighborhood known for its tree-lined streets, family-friendly atmosphere, and award-winning schools. Residents enjoy access to numerous parks, walking trails, and a vibrant community center.",
+    "metadata": {
+      "neighborhood": "Willow Creek",
+      "price": 650000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "house_size": "2800 sqft"
+    }
+  },
+  {
+    "page_content": "This stunning 4-bedroom, 3-bathroom home is located in a quiet cul-de-sac in the highly sought-after neighborhood of Willow Creek.  Boasting a spacious open-plan living area with vaulted ceilings and a cozy fireplace, this home is perfect for entertaining. The gourmet kitchen features stainless steel appliances and granite countertops.  Enjoy relaxing evenings on the private patio overlooking the lush backyard.  Willow Creek offers a range of amenities, including parks, playgrounds, and top-rated schools.\n\nWillow Creek is a peaceful and charming neighborhood known for its beautiful landscaping, friendly residents, and excellent schools.  Enjoy a vibrant community atmosphere with plenty of parks and green spaces for outdoor recreation.",
+    "metadata": {
+      "neighborhood": "Willow Creek",
+      "price": 550000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "house_size": "2500 sqft"
+    }
+  },
+  {
+    "page_content": "Welcome to your dream home in the heart of Willow Creek! This charming 4-bedroom, 3-bathroom residence boasts over 2,500 square feet of living space, perfect for growing families. Gleaming hardwood floors flow throughout the main level, past a cozy living room with a fireplace, a gourmet kitchen with stainless steel appliances, and a sunny dining area. Upstairs, you'll find four spacious bedrooms, including a luxurious master suite with a walk-in closet and ensuite bathroom. The fully fenced backyard is an entertainer's paradise, featuring a patio perfect for barbecues and a sprawling lawn for kids and pets to play. Located just steps from award-winning schools, parks, and shopping, this home offers the ultimate in comfort and convenience.\n\nWillow Creek is a vibrant community known for its excellent schools, charming parks, and friendly residents. With easy access to major highways and public transportation, Willow Creek offers the perfect blend of suburban living and urban convenience. Enjoy a variety of dining, shopping, and entertainment options just moments from your doorstep.",
+    "metadata": {
+      "neighborhood": "Willow Creek",
+      "price": 650000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "house_size": "2500 sqft"
+    }
+  },
+  {
+    "page_content": "Welcome to your dream home! This stunning 4-bedroom, 3-bathroom residence boasts a spacious open floor plan, perfect for both relaxation and entertaining. The gourmet kitchen features top-of-the-line appliances and ample counter space. Enjoy the serene backyard oasis, complete with a patio and lush landscaping. Located in the desirable Willow Creek neighborhood, this property offers a tranquil setting with easy access to parks, schools, and shopping.\n\nWillow Creek is a peaceful suburban community known for its mature trees, charming architecture, and excellent schools. Residents enjoy a strong sense of community and convenient access to nearby amenities.",
+    "metadata": {
+      "neighborhood": "Willow Creek",
+      "price": 550000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "house_size": "2500 sqft"
+    }
+  },
+  {
+    "page_content": "This charming 4 bedroom, 3 bathroom home is nestled in the heart of Willow Creek, a thriving community known for its friendly atmosphere and excellent schools.  Boasting a spacious living area perfect for entertaining, a modern kitchen with stainless steel appliances, and a private backyard oasis, this home offers the ideal blend of comfort and convenience.  Willow Creek residents enjoy access to walking trails, parks, and a vibrant downtown area with a variety of shops and restaurants.\n\nWillow Creek is a highly sought-after neighborhood known for its excellent schools, family-friendly atmosphere, and beautiful parks. Residents enjoy a strong sense of community, with many local events and activities throughout the year. The neighborhood is conveniently located near major highways, making it easy to access the city center and surrounding areas.",
+    "metadata": {
+      "neighborhood": "Willow Creek",
+      "price": 550000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "house_size": "2500 sqft"
+    }
+  },
+  {
+    "page_content": "This charming colonial boasts a spacious living room with a fireplace, a gourmet kitchen with stainless steel appliances, and a sun-drenched family room overlooking the private backyard. The master suite features a walk-in closet and en-suite bathroom, while the three additional bedrooms are perfect for guests or a growing family. Located in a quiet cul-de-sac, this home offers the perfect blend of modern comfort and timeless elegance.\n\nOakwood is a vibrant and historic neighborhood with a strong sense of community. Tree-lined streets, well-maintained parks, and excellent schools make it an ideal place to raise a family. Residents enjoy easy access to downtown amenities, as well as a variety of restaurants, shops, and cultural attractions.",
+    "metadata": {
+      "neighborhood": "Oakwood",
+      "price": 550000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "house_size": "2500 sqft"
+    }
+  },
+  {
+    "page_content": "This charming 4-bedroom, 3-bathroom home is nestled in a peaceful cul-de-sac in the heart of desirable Oakhaven. With its spacious living areas, updated kitchen, and a beautiful backyard perfect for entertaining, this home offers a comfortable and stylish lifestyle. Oakhaven boasts excellent schools, parks, and a vibrant community atmosphere.\n\nOakhaven is a family-friendly neighborhood with tree-lined streets, a welcoming community, and easy access to parks, trails, and top-rated schools.  Residents enjoy a peaceful suburban lifestyle with a convenient commute to downtown amenities.",
+    "metadata": {
+      "neighborhood": "Oakhaven",
+      "price": 580000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "house_size": "2500 sqft"
+    }
+  },
+  {
+    "page_content": "This beautiful 4-bedroom, 3-bathroom home in the heart of vibrant Oakwood offers a blend of modern comfort and classic charm.  Step inside to discover a spacious living area perfect for entertaining, a gourmet kitchen with stainless steel appliances, and a private backyard oasis.  Oakwood is known for its excellent schools, walkable streets, and thriving community.\n\nOakwood is a charming neighborhood known for its tree-lined streets, historic architecture, and welcoming atmosphere. Enjoy easy access to local shops, restaurants, and parks, making it an ideal place to call home.",
+    "metadata": {
+      "neighborhood": "Oakwood",
+      "price": 650000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "house_size": "2500 sqft"
+    }
+  },
+  {
+    "page_content": "This stunning 4-bedroom, 3-bathroom home is nestled in the desirable Westview neighborhood. Boasting a spacious living area with gleaming hardwood floors and a gourmet kitchen with stainless steel appliances, this home is perfect for entertaining. The serene backyard is an oasis, featuring a patio perfect for al fresco dining. Enjoy the convenience of nearby parks, shops, and restaurants. This is a must-see!\n\nWestview is a vibrant community known for its excellent schools, charming tree-lined streets, and family-friendly atmosphere. Residents enjoy easy access to parks, hiking trails, and a thriving downtown area with unique shops and restaurants.",
+    "metadata": {
+      "neighborhood": "Westview",
+      "price": 550000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "house_size": "2500 sqft"
+    }
+  },
+  {
+    "page_content": "This beautiful 4-bedroom, 3-bathroom home features a spacious living area, modern kitchen, and a private backyard perfect for entertaining.  Located in a quiet cul-de-sac, this home offers both privacy and convenience.\n\nOakwood is a charming, family-friendly neighborhood with tree-lined streets, excellent schools, and a vibrant community center.  Enjoy easy access to parks, trails, and local shops and restaurants.",
+    "metadata": {
+      "neighborhood": "Oakwood",
+      "price": 525000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "house_size": "2500 sqft"
+    }
+  },
+  {
+    "page_content": "This stunning 4-bedroom, 3-bathroom home boasts a spacious open floor plan, perfect for entertaining. The gourmet kitchen features stainless steel appliances and granite countertops. The master suite offers a private retreat with a walk-in closet and spa-like bathroom. Enjoy relaxing evenings on the covered patio overlooking the beautifully landscaped backyard.\n\nSunnyvale is a vibrant and family-friendly community with top-rated schools, parks, and shopping. Residents enjoy easy access to major highways and public transportation, making it an ideal location for commuters. The city's thriving culinary scene offers a diverse range of dining options to satisfy every palate.",
+    "metadata": {
+      "neighborhood": "Sunnyvale",
+      "price": 950000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "house_size": "2750 sqft"
+    }
+  },
+  {
+    "page_content": "This stunning 4-bedroom, 3-bathroom home in Oakwood boasts a spacious, open floor plan perfect for entertaining. The gourmet kitchen features granite countertops and stainless steel appliances, while the master suite offers a luxurious retreat with a spa-like bathroom. Enjoy the beautiful backyard oasis, complete with a deck and lush landscaping. Located in the highly sought-after Oakwood neighborhood, this home is close to excellent schools, parks, and shopping.\n\nOakwood is a vibrant and family-friendly neighborhood known for its beautiful tree-lined streets, charming homes, and excellent schools. Residents enjoy easy access to a variety of amenities, including parks, shopping centers, and restaurants. The neighborhood boasts a strong sense of community and is an ideal place to raise a family.",
+    "metadata": {
+      "neighborhood": "Oakwood",
+      "price": 485000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "house_size": "2500 sqft"
+    }
+  },
+  {
+    "page_content": "This charming 4 bedroom, 3 bathroom home in the heart of Oakhaven offers a perfect blend of modern comfort and classic appeal.  The spacious living room features a cozy fireplace, ideal for relaxing evenings. The updated kitchen boasts stainless steel appliances and ample counter space. Enjoy outdoor living in the private backyard, perfect for entertaining.  Oakhaven offers a tranquil setting with access to walking trails, parks, and a vibrant downtown area.\n\nOakhaven is a highly sought-after neighborhood known for its tree-lined streets, mature landscaping, and friendly atmosphere.  Residents enjoy a close-knit community with excellent schools, a variety of dining and shopping options, and easy access to major highways.",
+    "metadata": {
+      "neighborhood": "Oakhaven",
+      "price": 550000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "house_size": "2500 sqft"
+    }
+  },
+  {
+    "page_content": "This charming 4-bedroom, 3-bathroom home is a true gem nestled in the heart of vibrant Brookhaven.  Boasting a spacious open floor plan, gleaming hardwood floors, and a chef's dream kitchen, this property offers both comfort and style.  Enjoy evenings on the expansive deck overlooking the lush backyard, perfect for entertaining or relaxing with family.  The sought-after location provides easy access to award-winning schools, top-rated restaurants, and a thriving shopping scene.\n\nBrookhaven is a charming and affluent suburb of Atlanta, known for its tree-lined streets, family-friendly atmosphere, and excellent schools. Residents enjoy a vibrant mix of suburban and urban amenities, with easy access to parks, green spaces, and a thriving dining and shopping scene.",
+    "metadata": {
+      "neighborhood": "Brookhaven",
+      "price": 750000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "house_size": "2500 sqft"
+    }
+  },
+  {
+    "page_content": "This charming 4 bedroom, 3 bathroom home is nestled in a quiet cul-de-sac in the heart of the desirable Willow Creek neighborhood. The spacious living room boasts a cozy fireplace, perfect for gathering with loved ones. The gourmet kitchen features stainless steel appliances and granite countertops, making it a chef's delight. Enjoy outdoor living in the private backyard oasis, complete with a patio perfect for entertaining. Conveniently located near parks, schools, and shopping, this home offers the perfect blend of comfort and convenience.\n\nWillow Creek is a tranquil and family-friendly neighborhood known for its lush greenery, tree-lined streets, and excellent schools. Residents enjoy access to a variety of parks, playgrounds, and walking trails. The neighborhood is also conveniently located near shopping, dining, and entertainment options.",
+    "metadata": {
+      "neighborhood": "Willow Creek",
+      "price": 650000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "house_size": "2500 sqft"
+    }
+  },
+  {
+    "page_content": "This charming 4-bedroom, 3-bathroom home nestled in a quiet cul-de-sac offers the perfect blend of comfort and convenience. With its spacious living areas, updated kitchen, and private backyard oasis, this home is ideal for families seeking a peaceful retreat.\n\nWestchester is a vibrant community known for its excellent schools, family-friendly atmosphere, and convenient access to shopping and dining. Residents enjoy scenic parks, walking trails, and a strong sense of community.",
+    "metadata": {
+      "neighborhood": "Westchester",
+      "price": 650000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "house_size": "2500 sqft"
+    }
+  },
+  {
+    "page_content": "This charming 4-bedroom, 3-bathroom home is nestled in a quiet cul-de-sac in the heart of Willow Creek. Featuring a spacious open-plan living area with a fireplace, a gourmet kitchen with stainless steel appliances, and a private backyard oasis with a patio perfect for entertaining.  The master suite boasts a walk-in closet and spa-like ensuite bathroom. Close to top-rated schools, parks, and shopping, this home offers the perfect blend of comfort and convenience.\n\nWillow Creek is a highly sought-after suburban community known for its excellent schools, beautiful parks, and family-friendly atmosphere. Residents enjoy easy access to major highways, shopping centers, and dining options.",
+    "metadata": {
+      "neighborhood": "Willow Creek",
+      "price": 580000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "house_size": "2500 sqft"
+    }
+  },
+  {
+    "page_content": "This spacious 4-bedroom, 3-bathroom home is nestled in the heart of a quiet, family-friendly neighborhood.  The bright and airy living room features a cozy fireplace, perfect for gathering with loved ones.  The gourmet kitchen boasts stainless steel appliances and ample counter space, ideal for the aspiring chef.  Enjoy relaxing evenings in the private backyard, complete with a patio for outdoor entertaining.  This move-in ready home offers comfort, convenience, and a peaceful retreat from the hustle and bustle of city life.\n\nOakwood is a charming and established neighborhood known for its tree-lined streets, beautiful homes, and excellent schools.  Residents enjoy easy access to parks, walking trails, and a vibrant community center.  The neighborhood's convenient location provides quick access to major highways and shopping centers.",
+    "metadata": {
+      "neighborhood": "Oakwood",
+      "price": 550000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "house_size": "2500 sqft"
+    }
+  },
+  {
+    "page_content": "This charming 4-bedroom, 3-bathroom home is nestled in the heart of the vibrant Parkview neighborhood.  Boasting hardwood floors throughout, a spacious living room with a fireplace, and a fully updated kitchen with stainless steel appliances, this home is perfect for families looking for both comfort and style. Enjoy sunny mornings on the expansive front porch or host summer gatherings in the private backyard oasis complete with a patio and lush landscaping.  Parkview offers a friendly community atmosphere with a plethora of restaurants, shops, and parks just steps away.\n\nParkview is a highly sought-after neighborhood known for its tree-lined streets, charming brick houses, and strong sense of community. Residents enjoy easy access to top-rated schools, vibrant restaurants, boutique shops, and scenic parks.",
+    "metadata": {
+      "neighborhood": "Parkview",
+      "price": 580000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "house_size": "2500 sqft"
+    }
+  },
+  {
+    "page_content": "This charming 4-bedroom, 3-bathroom home in the heart of Willow Creek offers the perfect blend of modern comfort and classic appeal. With its spacious living areas, updated kitchen, and private backyard oasis, this property is ideal for families seeking a peaceful and welcoming retreat. Enjoy the vibrant community atmosphere, with its top-rated schools, picturesque park, and convenient access to shopping and dining.\n\nWillow Creek is a highly sought-after residential community known for its tree-lined streets, friendly atmosphere, and excellent schools. Residents enjoy a range of amenities, including parks, playgrounds, and community centers. The neighborhood is conveniently located near major highways, providing easy access to downtown and surrounding areas.",
+    "metadata": {
+      "neighborhood": "Willow Creek",
+      "price": 550000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "house_size": "2500 sqft"
+    }
+  },
+  {
+    "page_content": "This charming 4 bedroom, 3 bathroom home is nestled in a quiet cul-de-sac in the heart of the vibrant Maplewood neighborhood. With its spacious living areas, updated kitchen, and fenced-in backyard, this property is perfect for families looking for comfort and convenience.  Maplewoods offers a mix of mature trees, parks, and a thriving local business scene, making it a truly desirable place to call home.\n\nMaplewoods is a family-friendly neighborhood known for its excellent schools, beautiful parks, and strong sense of community. Residents enjoy easy access to local shops, restaurants, and entertainment options, as well as convenient access to major transportation routes.",
+    "metadata": {
+      "neighborhood": "Maplewood",
+      "price": 525000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "house_size": "2500 sqft"
+    }
+  },
+  {
+    "page_content": "This beautiful 4-bedroom, 3-bath home boasts a spacious open floor plan perfect for entertaining.  The gourmet kitchen features stainless steel appliances and granite countertops. Enjoy relaxing evenings in your private backyard oasis. Located in the highly sought-after neighborhood of Willow Creek, this home is close to top-rated schools, parks, and shopping.\n\nWillow Creek is a charming, family-friendly neighborhood with beautiful tree-lined streets and a strong sense of community. Residents enjoy access to top-rated schools, numerous parks and playgrounds, and a convenient location close to shopping, dining, and entertainment options.",
+    "metadata": {
+      "neighborhood": "Willow Creek",
+      "price": 550000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "house_size": "2500 sqft"
+    }
+  },
+  {
+    "page_content": "Welcome to your dream home! This charming 4-bedroom, 3-bathroom residence boasts a spacious open-concept living area perfect for entertaining. The modern kitchen features stainless steel appliances and ample counter space. Enjoy relaxing evenings in the cozy family room with a fireplace. The master suite offers a private retreat with a luxurious ensuite bathroom. Step outside to your private backyard oasis, ideal for barbecues and gatherings.\n\nWillow Creek is a quiet and friendly neighborhood nestled amidst lush greenery.  Families enjoy the neighborhood park and playground, while commuters appreciate the quick access to major highways. With a strong sense of community and excellent schools, Willow Creek offers a peaceful and desirable place to call home.",
+    "metadata": {
+      "neighborhood": "Willow Creek",
+      "price": 550000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "house_size": "2500 sqft"
+    }
+  },
+  {
+    "page_content": "This stunning 4 bedroom, 3 bathroom home boasts a modern open-concept floor plan, perfect for entertaining. The spacious living area flows seamlessly into the gourmet kitchen, complete with stainless steel appliances and granite countertops.  Enjoy cozy evenings by the fireplace in the family room.  Upstairs, you'll find a spacious master suite with a walk-in closet and ensuite bathroom.  The backyard oasis offers a private retreat with a patio perfect for summer barbecues.  Located in the heart of a vibrant neighborhood, this home is close to parks, schools, and shopping.\n\nOakwood offers a charming blend of historic homes and modern amenities.  Residents enjoy tree-lined streets, a lively downtown area with boutique shops and restaurants, and easy access to green spaces and recreation.  Oakwood is a family-friendly community with excellent schools and a strong sense of community.",
+    "metadata": {
+      "neighborhood": "Oakwood",
+      "price": 550000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "house_size": "2500 sqft"
+    }
+  },
+  {
+    "page_content": "This charming 4-bedroom, 3-bathroom home is nestled in the heart of Maplewood, offering a blend of modern comfort and classic elegance. The spacious living area features a cozy fireplace, perfect for relaxing evenings.  The gourmet kitchen boasts stainless steel appliances and ample counter space, ideal for culinary enthusiasts. With a fenced-in backyard, this home provides a private oasis for entertaining and outdoor activities. Located within walking distance to parks, schools, and vibrant shops, this property offers a desirable lifestyle with endless possibilities.\n\nMaplewood is a family-friendly neighborhood known for its tree-lined streets, excellent schools, and strong sense of community. Residents enjoy access to beautiful parks, walking trails, and a variety of dining and shopping options. The neighborhood's convenient location provides easy access to major highways and downtown amenities.",
+    "metadata": {
+      "neighborhood": "Maplewood",
+      "price": 650000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "house_size": "2500 sqft"
+    }
+  },
+  {
+    "page_content": "This stunning 4-bedroom, 3-bathroom home boasts a spacious open-concept floor plan, perfect for entertaining. With a gourmet kitchen, elegant living areas, and a private backyard oasis, it's a dream come true.\n\nParkview Estates is a tranquil community nestled amidst mature trees and lush greenery. Enjoy peaceful strolls through scenic parks, top-rated schools, and a vibrant community center.",
+    "metadata": {
+      "neighborhood": "Parkview Estates",
+      "price": 685000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "house_size": "2500 sqft"
+    }
+  },
+  {
+    "page_content": "This stunning 4-bedroom, 3-bathroom home boasts an open floor plan, perfect for entertaining. The spacious living room features a cozy fireplace, while the gourmet kitchen is a chef's dream. Step outside to the private backyard oasis, complete with a patio and lush landscaping. Located in the heart of a vibrant community, this home is close to schools, parks, and shopping.\n\nOakwood Hills is a charming neighborhood known for its tree-lined streets, friendly atmosphere, and excellent schools. Residents enjoy easy access to parks, trails, and a variety of dining and shopping options.",
+    "metadata": {
+      "neighborhood": "Oakwood Hills",
+      "price": 550000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "house_size": "2500 sqft"
+    }
+  },
+  {
+    "page_content": "This stunning 4 bedroom, 3 bathroom home is nestled in the heart of the vibrant Willow Creek neighborhood.  Featuring a gourmet kitchen, spacious living areas and a private backyard oasis, this home is perfect for entertaining and creating lasting memories.  The master suite offers a luxurious retreat with a spa-like bathroom.  Enjoy the convenience of being walking distance to shops, restaurants and schools.\n\nWillow Creek is a charming and family-friendly neighborhood known for its tree-lined streets, beautiful parks and excellent schools. Residents enjoy a peaceful suburban lifestyle with easy access to all the amenities of the city.",
+    "metadata": {
+      "neighborhood": "Willow Creek",
+      "price": 550000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "house_size": "2500 sqft"
+    }
+  },
+  {
+    "page_content": "This charming 4-bedroom, 3-bathroom home boasts a spacious open-plan living area perfect for entertaining. The modern kitchen features stainless steel appliances and granite countertops.  Enjoy relaxing evenings in the private backyard oasis, complete with a patio and lush landscaping.  Located in a quiet cul-de-sac, this home is close to top-rated schools, parks, and shopping.\n\nOakwood Estates is a highly sought-after neighborhood known for its mature trees, tree-lined streets, and strong sense of community. Residents enjoy access to walking trails, a community pool, and a playground. Located just minutes from downtown, Oakwood Estates offers the perfect blend of suburban tranquility and urban convenience.",
+    "metadata": {
+      "neighborhood": "Oakwood Estates",
+      "price": 650000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "house_size": "2500 sqft"
+    }
+  },
+  {
+    "page_content": "This charming 4-bedroom, 3-bathroom home in the heart of Willow Creek offers a welcoming atmosphere with its spacious living areas and private backyard oasis.  Enjoy morning coffee on the covered porch overlooking lush greenery, or entertain guests in the open-concept kitchen and dining area.  Willow Creek is a vibrant community with  easy access to parks, schools, and shopping.\n\nWillow Creek is a sought-after community known for its mature trees, peaceful ambiance, and strong sense of community. Residents enjoy access to a variety of parks, walking trails, and family-friendly events. The neighborhood's convenient location provides easy access to major highways and nearby amenities.",
+    "metadata": {
+      "neighborhood": "Willow Creek",
+      "price": 525000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "house_size": "2500 sqft"
+    }
+  },
+  {
+    "page_content": "This charming 4-bedroom, 3-bathroom home in the heart of Willow Creek offers a blend of modern comfort and classic style. With its spacious living areas, updated kitchen, and private backyard oasis, this property is perfect for families seeking a peaceful retreat.\n\nWillow Creek is a sought-after neighborhood known for its friendly community, top-rated schools, and convenient location. Residents enjoy easy access to parks, shopping, and dining, making it an ideal place to raise a family.",
+    "metadata": {
+      "neighborhood": "Willow Creek",
+      "price": 550000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "house_size": "2500 sqft"
+    }
+  },
+  {
+    "page_content": "This charming 3-bedroom, 2-bathroom home is nestled in a quiet, tree-lined street in the heart of Maplewood.  Natural light floods the open-concept living area, perfect for entertaining. Updated kitchen with stainless steel appliances and granite countertops. Enjoy cozy evenings by the fireplace in the spacious living room.   The fenced backyard offers a private oasis for relaxation and fun.  A prime location close to parks, schools, and shops.\n\nMaplewood is a vibrant and family-friendly neighborhood known for its excellent schools, beautiful parks, and a strong sense of community.   Residents enjoy a variety of shops, restaurants, and entertainment options within walking distance.  Easy access to major highways makes commuting a breeze.",
+    "metadata": {
+      "neighborhood": "Maplewood",
+      "price": 480000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "house_size": "1800 sqft"
+    }
+  },
+  {
+    "page_content": "This stunning 4-bedroom, 3-bathroom home offers a perfect blend of modern comfort and classic charm.  The spacious living room boasts a cozy fireplace, perfect for gathering with loved ones.  The gourmet kitchen features stainless steel appliances and ample counter space, making it a chef's dream.  Enjoy relaxing evenings in the private backyard oasis, complete with a patio and lush landscaping.\n\nNestled in the heart of the city, Parkview Estates offers a serene escape from the hustle and bustle.  This family-friendly neighborhood is known for its beautiful tree-lined streets, excellent schools, and convenient access to parks, shopping, and dining.",
+    "metadata": {
+      "neighborhood": "Parkview Estates",
+      "price": 650000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "house_size": "2800 sqft"
+    }
+  }
+]
