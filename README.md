@@ -115,10 +115,6 @@ HomeMatch/
     │   ├── query_cleaning_prompt.py # Query cleaning prompts
     │   └── rag_prompt.py       # RAG-specific prompts
     │
-    ├── tests/                  # Test suite
-    │   ├── test_full_chain.py  # Full chain integration tests
-    │   ├── test_query_cleaning.py # Query cleaning tests
-    │   └── test_rag_chain.py   # RAG chain tests
     │
     └── tools/                  # Utility tools and scripts
         └── chromadb/          # ChromaDB management tools
