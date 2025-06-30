@@ -59,33 +59,6 @@ class HomeMatch():
                 exit(1)  
             
         return home_match
-    
-   
-    def render_results(
-        self,
-        results
-        ):
-        """
-        This function will format the home suggestions send by the llm
-        """
-        display(Markdown("### 🏡 Top Matching Listings"))
-        
-        for i, doc in enumerate(results["context"], start=1):
-            meta = doc.metadata
-            card = f"""
-        **Listing {i}**
-        - 📍 Neighborhood: `{meta.get('neighborhood', 'N/A')}`
-        - 🛏 Bedrooms: `{meta.get('bedrooms', 'N/A')}`
-        - 🛁 Bathrooms: `{meta.get('bathrooms', 'N/A')}`
-        - 📐 Size: `{meta.get('house_size', 'N/A')}`
-        - ☀️ Price: `${meta.get('price', 'N/A'):,}`
-
-        ---
-        """
-            display(Markdown(card))
-
-        display(Markdown("### 🤖 AI Summary"))
-        display(Markdown(f"> {results['answer']}"))
 
 
 if __name__=="__main__":
@@ -101,6 +74,6 @@ if __name__=="__main__":
     home_match = HomeMatch(llm)
     
     #get the home suggestions
-    home_match.render_results(home_match.invoke_full_chain(raw_query = "I'd like a modern 3-bedroom around 2000 sqft, solar panels, "
-                  "backyard, quiet neighborhood, near public transit. Budget about $600k."))
+    home_match.invoke_full_chain(raw_query = "I'd like a modern 3-bedroom around 2000 sqft, solar panels, "
+                  "backyard, quiet neighborhood, near public transit. Budget about $600k.")
     

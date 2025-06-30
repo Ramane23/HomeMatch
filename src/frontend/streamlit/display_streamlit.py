@@ -9,6 +9,7 @@ import streamlit as st
 from langchain_groq import ChatGroq
 
 from src.config import settings
+from src.llms.groqllm import GroqLLM
 from src.frontend.streamlit.load_streamlit_ui import LoadStreamlitUI
 from src.chains.full_chain import HomeMatch  # <-- your composed LangChain pipeline (cleaner → RAG)
 
@@ -16,20 +17,19 @@ from src.chains.full_chain import HomeMatch  # <-- your composed LangChain pipel
 class HomeMatchDisplay:
     """Encapsulates the HomeMatch Streamlit interface and display logic."""
 
-    def __init__(self, model):
-        
-        self.home_match = HomeMatch(model)
+    def __init__(self):
         
         # Load sidebar and store user inputs
         self.ui = LoadStreamlitUI()
         self.user_inputs = self.ui.load_streamlit_ui()
+        self.home_match = HomeMatch(self.get_selected_model(self.user_inputs))
         
     def render(self):
         """Render the main page content and trigger the query/search."""
         st.markdown("---")
         st.subheader("🔍 Find Your Ideal Home")
 
-        if st.button("✨ Search Listings", use_container_width=True):
+        if st.button("✨ Search Listings", use_container_width=True, key="search_btn_top"):
             with st.spinner("Running AI search based on your preferences..."):
 
                 # Build the query
@@ -39,8 +39,26 @@ class HomeMatchDisplay:
                 results = self.home_match.invoke_full_chain({"raw_query": query})
 
                 # Show results
-                self._render_summary(results)
-                self._render_listings(results)
+                #self._render_summary(results)
+                self.render_results(results)
+    
+    def get_selected_model(self,user_controls: dict):
+            """
+            Build a GroqLLM instance from Streamlit sidebar inputs and
+            return the underlying model object if it’s usable.
+
+            If the model cannot be initialized (missing or bad API key),
+            shows a Streamlit error and returns None.
+
+            """
+            llm = GroqLLM(user_controls)
+            model = llm.get_llm_model()
+
+            if model is None:
+                st.error("❌ LLM model could not be initialized (check your GROQ API key)")
+                return None
+
+            return model
 
     def _build_query(self) -> str:
         """Generate a natural language query from user inputs."""
@@ -55,15 +73,46 @@ class HomeMatchDisplay:
             f"Ideal for someone with a {self.user_inputs['lifestyle']} lifestyle."
         )
 
-    def _render_summary(self, results):
-        """Display AI-generated summary."""
-        st.success("\n\n" + results.get("answer", "No suggestions returned."))
+    def render_results(self, results):
+            """
+            Display matching listings and the LLM-generated summary in a clean, interactive UI.
+            """
 
-    def _render_listings(self, results):
-        """Display listings from the RAG context using shared render_results."""
-        st.markdown("---")
-        st.subheader("🏘 Top Matching Listings")
-        self.home_match.render_results(results)
+            st.markdown("### 🏘 Top Matching Listings")
+
+            docs = results.get("context", [])
+
+            if not docs:
+                st.warning("No matching listings found.")
+                return
+
+            for i, doc in enumerate(docs, 1):
+                meta = doc.metadata
+
+                with st.expander(f"🏡 Listing {i}: {meta.get('neighborhood', 'Unknown')}"):
+                    st.markdown(f"""
+                    - 📍 **Neighborhood**: `{meta.get('neighborhood', 'N/A')}`
+                    - 🛏 **Bedrooms**: `{meta.get('bedrooms', 'N/A')}`
+                    - 🛁 **Bathrooms**: `{meta.get('bathrooms', 'N/A')}`
+                    - 📐 **Size**: `{meta.get('house_size', 'N/A')} sqft`
+                    - 💰 **Price**: `${meta.get('price', 'N/A'):,}`
+                    """)
+
+            # Summary block
+            st.markdown("---")
+            st.markdown("### 🤖 AI Summary")
+            st.markdown(f"""
+            <div style="background-color:#f5f5f5;padding:15px;border-radius:10px;">
+            {results.get('answer', 'No summary returned.')}
+            </div>
+            """, unsafe_allow_html=True)
+
+
+    # def _render_listings(self, results):
+    #     """Display listings from the RAG context using shared render_results."""
+    #     st.markdown("---")
+    #     st.subheader("🏘 Top Matching Listings")
+    #     self.render_results(results)
         
 
 # Instantiate and render UI if run directly

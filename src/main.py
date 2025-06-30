@@ -21,36 +21,23 @@ from src.frontend.streamlit.display_streamlit import HomeMatchDisplay
 def load_home_match_app() -> None:
     """Run the HomeMatch Streamlit app with full error handling and UI logic."""
 
-    # 1. Load UI and sidebar
-    logger.info(f"loading the UI and sidebar")
-    user_input = ui.load_streamlit_ui()
+    # Load the HomeMatch display
+    logger.info(f"collecting the user imputs...")
+    home_match_display = HomeMatchDisplay()
+    user_inputs = home_match_display.user_inputs
 
-    if not user_input:
+    if not user_inputs:
         st.error("Error: Failed to load user input from the UI.")
         return
 
-    st.markdown("---")
-    logger.info(f"adding the subheader 🔍 Find Your Ideal Home")
-    st.subheader("🔍 Find Your Ideal Home")
+    try:
 
-    if st.button("✨ Search Listings", use_container_width=True):
-        with st.spinner("Running AI search based on your preferences..."):
-            try:
-                # 2. Ensure Groq LLM is usable (API key etc.)
-                llm = GroqLLM(user_controls_input=user_input)
-                model = llm.get_llm_model()
+        # Build query, invoke the full_chain and display results using HomeMatchDisplay render method
+        logger.info(f"Building query, invoking the full_chain and displaying results using HomeMatchDisplay render method")
+        home_match_display.render()
 
-                if not model:
-                    st.error("❌ LLM model could not be initialized (check your API key)")
-                    return
-
-                # 3. Build query, invoke the full_chain and display results using HomeMatchDisplay render method
-                logger.info(f"Building query, invoking the full_chain and displaying results using HomeMatchDisplay render method")
-                home_match_display = HomeMatchDisplay(model)
-                home_match_display.render()
-
-            except Exception as exc:
-                st.error(f"❌ An unexpected error occurred: {exc}")
+    except Exception as exc:
+        st.error(f"❌ An unexpected error occurred: {exc}")
 
 
 if __name__ == "__main__":
