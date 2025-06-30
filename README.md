@@ -19,7 +19,7 @@
 ---
 ## 🖼 Preview
 
-![HomeMatch UI]([./assets/demo-screenshot.png](https://githubimagesbucket.s3.us-east-1.amazonaws.com/HomeMatch.PNG))
+![HomeMatch UI](https://githubimagesbucket.s3.us-east-1.amazonaws.com/HomeMatch.PNG)
 ---
 
 ## 🛠️ Environment Variables
