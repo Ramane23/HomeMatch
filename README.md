@@ -73,12 +73,13 @@ make run
 
 ```
 HomeMatch/
-│
+├── .env.example                 # Example environment variables for API keys
 ├── Makefile                      # Build and run commands
 ├── README.md                     # Project documentation
 ├── app.py                        # Alternative app entry point
 ├── pyproject.toml               # Project configuration and dependencies
 ├── uv.lock                      # Dependency lock file
+├── requirements.txt            # Pinned dependencies for pip users
 │
 └── src/                         # Main source code
     ├── main.py                  # Primary application entry point
