@@ -42,8 +42,14 @@ Make sure these match the keys you select from the UI dropdown.
 git clone https://github.com/your-username/HomeMatch.git
 cd HomeMatch
 
+#create a uv workspace
+uv venv
+
 # activate the uv workspace
 uv .venv/bin/activate
+
+#install dependencies
+uv pip install -r requirements.txt
 
 #run the streamlit app
 streamlit run src/main.py
