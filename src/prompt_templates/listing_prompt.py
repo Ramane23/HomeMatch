@@ -8,4 +8,3 @@ listing_prompt = PromptTemplate(
         "• Keep data plausible and coherent.\n\n"
     ),
 )
-

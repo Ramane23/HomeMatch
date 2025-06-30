@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "accelerate>=1.8.1",
+    "black>=25.1.0",
     "chromadb>=1.0.13",
     "ipykernel>=6.29.5",
     "langchain>=0.3.26",

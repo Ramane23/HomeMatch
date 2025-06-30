@@ -1,6 +1,7 @@
 from pydantic import BaseModel, Field
 
-#defining a Pydantic outputparser to format the llm output
+
+# defining a Pydantic outputparser to format the llm output
 class Listing(BaseModel):
     neighborhood: str = Field(..., description="Name of the neighborhood")
     price: int = Field(..., description="Listing price in whole US dollars")

@@ -33,7 +33,9 @@ def load_home_match_app() -> None:
     try:
 
         # Build query, invoke the full_chain and display results using HomeMatchDisplay render method
-        logger.info(f"Building query, invoking the full_chain and displaying results using HomeMatchDisplay render method")
+        logger.info(
+            f"Building query, invoking the full_chain and displaying results using HomeMatchDisplay render method"
+        )
         home_match_display.render()
 
     except Exception as exc:

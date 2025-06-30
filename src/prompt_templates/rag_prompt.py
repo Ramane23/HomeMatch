@@ -1,10 +1,12 @@
 from langchain.prompts import ChatPromptTemplate
 
 
-#defining the rag prompt template
-rag_prompt = ChatPromptTemplate.from_messages([
-    ("system",
-     """You are HomeMatch, an expert real-estate assistant helping buyers find ideal homes based on their preferences.
+# defining the rag prompt template
+rag_prompt = ChatPromptTemplate.from_messages(
+    [
+        (
+            "system",
+            """You are HomeMatch, an expert real-estate assistant helping buyers find ideal homes based on their preferences.
 
 You will be given:
 - A structured summary of the buyer's preferences (in natural language)
@@ -18,7 +20,8 @@ Your task:
 Only use information found in the listings. Do not invent properties or add extra features.
 
 "Listings:\n{context}",
-"""
-),
-    ("human", "{input}"),
-])
+""",
+        ),
+        ("human", "{input}"),
+    ]
+)

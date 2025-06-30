@@ -1,5 +1,6 @@
 import configparser
 
+
 class Config:
     def __init__(self, path="src/frontend/config/uiconfig.ini"):
         self.config = configparser.ConfigParser()
@@ -22,5 +23,6 @@ class Config:
 
     def get_neighborhood_traits(self):
         return self.config["DEFAULT"].get("NEIGHBORHOOD_TRAITS", "").split(", ")
+
 
 ui_config = Config()

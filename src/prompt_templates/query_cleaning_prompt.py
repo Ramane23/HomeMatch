@@ -1,7 +1,7 @@
 from langchain.prompts import ChatPromptTemplate
 
 
-#Defining the system Prompt for the cleaning LLM
+# Defining the system Prompt for the cleaning LLM
 system_prompt = """
 You are a helpful assistant for a real estate matching app.
 
@@ -23,7 +23,6 @@ Return ONLY a valid JSON object matching the following fields:
 If the user doesn’t mention a field, set it to null or an empty list (for arrays).
 """
 
-query_cleaner_prompt = ChatPromptTemplate.from_messages([
-    ("system", system_prompt.strip()),
-    ("human", "{raw_query}")
-])
+query_cleaner_prompt = ChatPromptTemplate.from_messages(
+    [("system", system_prompt.strip()), ("human", "{raw_query}")]
+)
