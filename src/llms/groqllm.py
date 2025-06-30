@@ -49,6 +49,5 @@ class GroqLLM:
             # Raise a user-friendly error if anything goes wrong
             raise ValueError(f"Error Occurred With Exception: {e}")
 
-        return llm  # Return the instantiated model
+        return llm  # Return the instantiated modelS
 
-groqllm =GroqLLM()

@@ -18,14 +18,6 @@ class Rag():
     """
     
     #class attributes
-    #llm_groq = groqllm().get_llm_model()
-    llm_groq = ChatGroq(
-        api_key=settings.GROQ_API_KEY,
-        model_name="gemma2-9b-it",  # or another Groq model
-        temperature=0.8,
-        max_tokens=512   # plenty for one JSON listing
-    )
-    
     embedding_model = HuggingFaceEmbeddings(
         model_name="BAAI/bge-base-en-v1.5",
         model_kwargs={"device": "cpu"}  # or "cuda" if GPU is available
@@ -33,8 +25,9 @@ class Rag():
     
     rag_prompt = rag_prompt
     
-    def __init__(self):
+    def __init__(self, model):
         
+        self.llm = model
         self.chroma_store = ChromaStore()
     
     def get_rag_chain(self):
@@ -44,7 +37,7 @@ class Rag():
         
         # 1️⃣  combine the retrieved docs + prompt + model
         combine_docs_chain = create_stuff_documents_chain(
-            llm=self.llm_groq,
+            llm=self.llm,
             prompt=rag_prompt          
         )
         
@@ -91,8 +84,14 @@ class Rag():
     
 if __name__=="__main__":
     
+    llm = ChatGroq(
+        api_key=settings.GROQ_API_KEY,
+        model_name="gemma2-9b-it",  # or another Groq model
+        temperature=0.8,
+        max_tokens=512   # plenty for one JSON listing
+    )
     #instantiate a ChromaStore object
-    rag = Rag()
+    rag = Rag(llm)
     
     #get the retriever
     rag.invoke_rag_chain(raw_query = "I'd like a modern 3-bedroom around 2000 sqft, solar panels, "

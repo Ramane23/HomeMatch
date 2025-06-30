@@ -2,20 +2,11 @@ from langchain_groq import ChatGroq
 from langchain.schema.runnable import  RunnableLambda
 from loguru import logger
 
-
-#from src.llms import groqllm
 from src.llm_parsers.buyer_preferences import BuyerPreferences
 from src.prompt_templates.query_cleaning_prompt import query_cleaner_prompt
 from src.config import settings
 
-#TODO:
-# get the groq api key
-# get the groqllm
-# load the listings documents
-# bind the llm with the BuyerPreference class
-# load an embedding model
-# get the query_cleaning prompt template
-# define the query cleaning chain
+
 
 class QueryCleaner():
     
@@ -24,20 +15,12 @@ class QueryCleaner():
     to generate a a cleaner query for the llm.
     """
     
-    #class attributes
-    #llm_groq = groqllm().get_llm_model()
-    llm_groq = ChatGroq(
-        api_key=settings.GROQ_API_KEY,
-        model_name="gemma2-9b-it",  # or another Groq model
-        temperature=0.8,
-        max_tokens=512   # plenty for one JSON listing
-    )
     
     cleaning_prompt = query_cleaner_prompt
     
-    def __init__(self):
+    def __init__(self, model):
         
-        pass
+        self.llm = model
     
     def query_cleaning_chain(self):
         
@@ -46,7 +29,7 @@ class QueryCleaner():
         """
         
         # Bind the parser to the LLM
-        cleaning_llm = self.llm_groq.with_structured_output(BuyerPreferences)
+        cleaning_llm = self.llm.with_structured_output(BuyerPreferences)
         
         #create a RunnableLambda to extract the query attribute from the BuyerPreference object
         extract_query = RunnableLambda(lambda prefs: {"input" : prefs.query})
@@ -93,9 +76,16 @@ class QueryCleaner():
     
     
 if __name__=="__main__":
+    
+    llm = ChatGroq(
+        api_key=settings.GROQ_API_KEY,
+        model_name="gemma2-9b-it",  # or another Groq model
+        temperature=0.8,
+        max_tokens=512   # plenty for one JSON listing
+    )
         
     #instantiate a QueryCleaner object
-    query_cleaner = QueryCleaner()
+    query_cleaner = QueryCleaner(llm)
         
     #clean the user raw query
     query_cleaner.invoke_clean_query(raw_query = "I'd like a modern 3-bedroom around 2000 sqft, solar panels, "

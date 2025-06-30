@@ -1,8 +1,10 @@
 from loguru import logger
 from IPython.display import display, Markdown
+from langchain_groq import ChatGroq
 
 from src.chains.query_cleaning import QueryCleaner
 from src.chains.rag_chain import Rag
+from src.config import settings
 
 
 class HomeMatch():
@@ -11,10 +13,10 @@ class HomeMatch():
     This is a class is responsible of builing and running the full home match chain
     """
     
-    def __init__(self):
+    def __init__(self, model):
         
-        self.query_cleaner = QueryCleaner()
-        self.rag = Rag()
+        self.query_cleaner = QueryCleaner(model)
+        self.rag = Rag(model)
     
     def get_full_chain(self):
         """
@@ -84,11 +86,19 @@ class HomeMatch():
 
         display(Markdown("### 🤖 AI Summary"))
         display(Markdown(f"> {results['answer']}"))
-        
+
+
 if __name__=="__main__":
     
+    llm = ChatGroq(
+        api_key=settings.GROQ_API_KEY,
+        model_name="gemma2-9b-it",  # or another Groq model
+        temperature=0.8,
+        max_tokens=512   # plenty for one JSON listing
+    )
+    
     #instantiate a HomeMatch object
-    home_match = HomeMatch()
+    home_match = HomeMatch(llm)
     
     #get the home suggestions
     home_match.render_results(home_match.invoke_full_chain(raw_query = "I'd like a modern 3-bedroom around 2000 sqft, solar panels, "
